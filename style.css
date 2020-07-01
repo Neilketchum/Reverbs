@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+.nav-list{
+    display: flex;
+    background-color: #363636;
+    padding: 10px;
+    color: blanchedalmond;
+    justify-content: space-evenly;
+
+}
+.nav-item{
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+.brand{
+    flex:6;
+    font-family: 'Notable', sans-serif;
+    font-size: 1.1rem;
+    line-break: 1.7px;
+}
+.home{
+    flex: 0.8;
+}
+.contact{
+    flex: 0.8;
+}
+.about{
+    flex:0.8;
+}
+.fa-lightbulb{
+    color:yellow;
+    margin-left:10px;
+    text-shadow:2px 2px 2px 2px yellow ;
+}
+.main-carousel{
+    margin-top: -16px;
+    width: 100%;
+    /* height: 30px; */
+}
+img {
+    position: relative;
+    /* top: 10rem; */
+    left: 0;
+    max-height: 550px;
+}
+.about{
+    display: flex;
+}
+.about-card{
+    width: 400px;
+    height: 400px;
+    /* background-color: red; */
+    border: 0px;
+}
+.about-img{
+    width: 350px;
+    height: 350px;
+}
+.about-content{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Notable', sans-serif;
+}
