@@ -47,6 +47,7 @@ img {
 }
 .about{
     display: flex;
+    justify-content: space-evenly;
 }
 .about-card{
     width: 400px;
@@ -62,4 +63,19 @@ img {
     text-align: center;
     font-size: 2.2rem;
     font-family: 'Notable', sans-serif;
+}
+.line-1,
+.line-2,
+.line-3{
+    display: flex;
+    justify-content: space-between;
+}
+.know-header{
+    margin-top: 2rem;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
